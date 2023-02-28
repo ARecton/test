@@ -45,6 +45,7 @@ p {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
+  color: #B59970;
 }
 
 h1,
@@ -74,6 +75,7 @@ h3,
 h4 {
   font-size: 50px;
 }
+
 
 
 
@@ -200,7 +202,7 @@ section {
 .section-title {
   margin-top: 0;
   font-size: 3.8rem;
-  border: non;
+  border: none;
 }
 
 .section-header {
@@ -239,6 +241,9 @@ section {
   font-size: 15px;
 }
 
+.mentions-title{
+  text-align: left;
+}
 
 
 
@@ -461,7 +466,7 @@ section {
 }
 
 .about .section-title {
-  margin-top: 2.8rem;
+  margin-top: 240px;
   text-align: inherit ;
 }
 
@@ -727,8 +732,9 @@ footer {
 
 footer p {
   margin: 0;
+  white-space: pre-line;
+  margin-left: 90px;
 }
-
 footer .grid {
   align-items: center;
 }
