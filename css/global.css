@@ -92,6 +92,16 @@ a {
   font-weight: bolder;
 }
 
+
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#background-video {
+  opacity: 0.5;
+}
+
+
+
 button{
   margin-bottom: 23vh;
   float: right;
@@ -211,11 +221,25 @@ section {
   z-index: 1;
 }
 
-.header .logo {
-  font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
-  letter-spacing: 2px;
+#Mentions{
+  display: flex;
+  flex-direction: column;
 }
+
+.Mentions {
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+
 
 
 .header li {
@@ -229,7 +253,7 @@ color: #fff;
 font-weight: 600;}
 
 .header a:hover {
-  color: #FFF;
+  color: #B59970;
 }
 
 .header .right {
@@ -265,7 +289,7 @@ font-weight: 600;}
 }
 
 .burger .bar {
-  display: block;
+
   width: 22px;
   height: 3px;
   background: #B59970;
@@ -273,7 +297,7 @@ font-weight: 600;}
 
 .burger .bar::before,
 .burger .bar::after {
-  display: block;
+
   content: "";
   width: 22px;
   height: 3px;
@@ -313,7 +337,7 @@ font-weight: 600;}
   }
 
   nav .menu a {
-    display: block;
+
     font-size: 2rem;
     padding: 2rem;
     transition: all .4s;
@@ -368,6 +392,7 @@ font-weight: 600;}
     position: relative;
 }
 
+
 section {
     padding: 0 10%;
 }
@@ -403,10 +428,7 @@ section {
   animation-name: slideInRight;
 }
 
-.hero__avatar img {
-  width: 100%;
-  ;
-}
+
 
 @media screen and (max-width:749px) {
   .hero__item.left {
@@ -669,7 +691,7 @@ section {
 
 .form input,
 .form textarea {
-  display: block;
+
   width: 100%;
   padding: 1rem;
   margin-bottom: 2rem;
