@@ -7,7 +7,7 @@
 
 * {
 
-  color: #B59970;
+  color: #fff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,8 +25,7 @@ body {
   color: var(--color-body);
   margin: 0;
   background: var(--background-body);
-  background-image: radial-gradient(circle, #111111, #1b1b1b, #242424, #2d2d2d, #373737, #3b3b3b, #404040, #444444, #444444, #444444, #444444, #444444);
-}
+  background-image: radial-gradient(circle, #7c6a51, #6e5f4b, #615444, #53493e, #463f38, #4a433a, #4f463d, #534a3f, #6b5d4b, #837057, #9c8463, #b59970);;;}
 
 h1,
 h2,
@@ -45,7 +44,7 @@ p {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
-  color: #B59970;
+  
 }
 
 h1,
@@ -62,7 +61,7 @@ h2,
 .h2 {
   font-size: 2.8rem;
   text-transform: uppercase;
-  color: #78788c;
+  color: #fff;
     border-bottom: 3px solid #78788c;
 }
 
@@ -99,7 +98,24 @@ a {
 
 /* Style the video: 100% width and height to cover the entire window */
 #background-video {
-  opacity: 0.5;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width:981px) {
+  .btn-reservation {
+    display: none;
+  }
+
+  
+}
+
+@media screen and (min-width:400px) {
+  .header{
+    position: sticky;
+    width: 100%;
+  }
 }
 
 
@@ -463,6 +479,7 @@ section {
     max-width: 400px;
     border-radius: 50%;
   }
+  
 }
 
 .about .section-title {
@@ -475,6 +492,20 @@ section {
     padding-right: 3rem;
   }
 }
+
+
+@media screen and (max-width:1565px) {
+  .header {
+    background: #222;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+}
+
+
+
+    
 
 
 @media screen and (max-width:749px) {
@@ -500,9 +531,7 @@ section {
 
 
 
-.portfolio {
-  background: #333;
-}
+
 
 .portfolio .grid__item {
   max-width: 50%;
