@@ -44,7 +44,7 @@ p {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
-  
+
 }
 
 h1,
@@ -108,7 +108,7 @@ a {
     display: none;
   }
 
-  
+
 }
 
 @media screen and (min-width:400px) {
@@ -449,7 +449,13 @@ section {
   animation-name: slideInRight;
 }
 
+#content-mention {
+  display: none;
+}
 
+#content-about {
+  display: none;
+}
 
 @media screen and (max-width:749px) {
   .hero__item.left {
@@ -479,7 +485,7 @@ section {
     max-width: 400px;
     border-radius: 50%;
   }
-  
+
 }
 
 .about .section-title {
@@ -505,7 +511,7 @@ section {
 
 
 
-    
+
 
 
 @media screen and (max-width:749px) {
