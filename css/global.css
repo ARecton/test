@@ -262,7 +262,7 @@ section {
 
 .header {
 
-  background-color: #696969;
+  background-color: #2a4158;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -533,7 +533,7 @@ section {
 
 @media screen and (max-width:1565px) {
   .header {
-    background: #222;
+    background: #2a4158;
     position: sticky;
     top: 0;
     z-index: 1;
