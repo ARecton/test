@@ -27,7 +27,7 @@ body {
   color: var(--color-body);
   margin: 0;
   background: var(--background-body);
-  background-image: linear-gradient(to left top, #302b2e, #3b313a, #433749, #473f59, #46486b, #3e4671, #344477, #23437d, #143577, #062670, #021568, #04005e);
+  background-color:#778899;
 }
   h1,
 h2,
@@ -261,8 +261,8 @@ section {
 }
 
 .header {
-  background: #222;
 
+  background-color: #696969;
   position: sticky;
   top: 0;
   z-index: 1;
