@@ -27,7 +27,7 @@ body {
   color: var(--color-body);
   margin: 0;
   background: var(--background-body);
-  background-color:#778899;
+  background-image: radial-gradient(circle, #ffffff, #f6f6f6, #ededed, #e5e5e5, #dcdcdc);
 }
   h1,
 h2,
@@ -262,7 +262,7 @@ section {
 
 .header {
 
-  background-color: #696969;
+  background-image: radial-gradient(circle, #e7e5e5, #d6d2d2, #c4bfbf, #b4acac, #a39a9a);
   position: sticky;
   top: 0;
   z-index: 1;
@@ -671,6 +671,20 @@ section {
   }
 
 }
+
+
+
+
+@media screen and (min-width:400px) {
+  .portfolio a {
+    font-size: 1.4rem;
+  }
+
+  body {
+    width: 100%
+  };
+}
+
 
 @media screen and (min-width:750px) {
   .portfolio .grid__item {
