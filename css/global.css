@@ -36,14 +36,14 @@ h4,
 h5,
 h6 {
   font-family: 'Raleway', sans-serif;
-  color: #fff;
+  color: #931c1c;
   font-weight: 600;
   line-height: 1;
   text-align: center;
 }
 
 p {
-  color: #fff;
+  color: #585858;
   font-weight: 400;
   font-size: 20px;
   text-align: left;
@@ -64,7 +64,7 @@ h2,
 .h2 {
   font-size: 2.8rem;
   text-transform: uppercase;
-  color: #fff;
+  color: #931c1c;
     border-bottom: 3px solid #78788c;
 }
 
@@ -299,7 +299,7 @@ section {
 }
 
 .header a {
-color: #fff;
+color: #931c1c;
 font-weight: 600;
 display: inline;
 }
