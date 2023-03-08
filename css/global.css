@@ -230,22 +230,20 @@ li {
 
 @media screen and (min-width: 700px) {
   .grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .grid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
 /* Sections */
 
 
-section {
-  padding: 5.5rem 0;
-}
+
 
 .section-title {
   margin-top: 0;
@@ -435,7 +433,7 @@ display: inline;
 
 .hero {
 
-    height: 80vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -444,9 +442,7 @@ display: inline;
 }
 
 
-section {
-    padding: 0 10%;
-}
+
 
 .hero .title {
   color: inherit;
@@ -956,12 +952,12 @@ footer .socials a:hover {
 
 @media screen and (min-width: 700px) {
   .adress {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .adress {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
