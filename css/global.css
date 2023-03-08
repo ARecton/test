@@ -262,8 +262,7 @@ section {
 
 .header {
 
-  background-image: radial-gradient(circle, #e7e5e5, #d6d2d2, #c4bfbf, #b4acac, #a39a9a);
-  position: sticky;
+  background-image: radial-gradient(circle, #e7e5e5, #d6d2d2, #c4bfbf, #b4acac, #a39a9a);  position: sticky;
   top: 0;
   z-index: 1;
 }
@@ -533,7 +532,7 @@ section {
 
 @media screen and (max-width:1565px) {
   .header {
-    background: #696969;
+    background-image: radial-gradient(circle, #e7e5e5, #d6d2d2, #c4bfbf, #b4acac, #a39a9a);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -705,7 +704,7 @@ section {
 }
 
 .card {
-  background: #585858;
+  background-image: radial-gradient(circle, #e7e5e5, #d6d2d2, #c4bfbf, #b4acac, #a39a9a);;
   text-transform: uppercase;
   position: relative;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
