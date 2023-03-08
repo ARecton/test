@@ -666,11 +666,15 @@ section {
   .portfolio a {
     font-size: 1.4rem;
   }
+  .portfolio .grid__item {
+    max-width: 300px;
+  }
+
 }
 
 @media screen and (min-width:750px) {
   .portfolio .grid__item {
-    max-width: 33.3333%;
+    max-width: 300px;
   }
 
   .portfolio-filters .grid__item {
