@@ -139,7 +139,7 @@ function menuMobile() {
   });
 }
 
-menuMobile();
+
 
 /* Porfolio */
 
