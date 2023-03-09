@@ -265,6 +265,62 @@ li {
   z-index: 1;
 }
 
+/* Sidenav menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #e8e8e8;
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #111;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+  left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+
 #Mentions{
   display: flex;
   flex-direction: column;
@@ -606,7 +662,8 @@ display: inline;
   z-index: 4;
   transform: scale(0);
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-image: radial-gradient(circle, #ffffff, #f6f6f6, #ededed, #e5e5e5, #dcdcdc);
+
   transition: all 0.5s;
 }
 
@@ -621,7 +678,8 @@ display: inline;
 }
 
 .modal__content {
-  background-color: #444444;
+  background-image: radial-gradient(circle, #ffffff, #f6f6f6, #ededed, #e5e5e5, #dcdcdc);
+
   height: 100vh;
   padding: 5rem 1rem;
   overflow: auto;
@@ -803,7 +861,8 @@ display: inline;
 /* Footer */
 
 footer {
-  background: #000;
+  background-image: radial-gradient(circle, #e7e5e5, #d6d2d2, #c4bfbf, #b4acac, #a39a9a);  position: sticky;
+
   color: #EEE;
   text-align: center;
   font-size: 1.4rem;
