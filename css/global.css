@@ -206,7 +206,12 @@ li {
 
 .grid {
   display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
 
+.grid_portfolio{
+grid-template-columns: 1fr 1fr ;
+display: grid;
 }
 
 .grid__item {
@@ -236,7 +241,7 @@ li {
 
 @media screen and (min-width: 1200px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 

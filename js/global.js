@@ -281,15 +281,7 @@ mention.addEventListener("click", function () {
     }
   });
 
-readMore.addEventListener("click", function () {
-  this.classList.toggle("active");
-  let content = document.getElementById("content-about");
-  if (content.style.display === "block") {
-    content.style.display = "none";
-  } else {
-    content.style.display = "block";
-  }
-});
+
 
 
 var sidenav = document.getElementById("mySidenav");
