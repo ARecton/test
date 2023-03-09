@@ -39,7 +39,7 @@ h6 {
   color: #931c1c;
   font-weight: 600;
   line-height: 1;
-  text-align: center;
+
 }
 
 p {
@@ -235,13 +235,13 @@ display: grid;
 
 @media screen and (min-width: 700px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .grid {
-    grid-template-columns: 1fr 1fr;
+    display: flex;
   }
 }
 
@@ -502,7 +502,10 @@ display: inline;
     position: relative;
 }
 
-
+.grid_hero{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
 
 .hero .title {
@@ -593,6 +596,7 @@ display: inline;
     position: sticky;
     top: 0;
     z-index: 1;
+
   }
 }
 
@@ -867,7 +871,6 @@ display: inline;
 
 footer {
   background-image: radial-gradient(circle, #e7e5e5, #d6d2d2, #c4bfbf, #b4acac, #a39a9a);  position: sticky;
-
   color: #EEE;
   text-align: center;
   font-size: 1.4rem;
