@@ -204,10 +204,6 @@ li {
   position: relative;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
-}
 
 .grid_portfolio{
 grid-template-columns: 1fr 1fr ;
