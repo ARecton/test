@@ -92,9 +92,9 @@ h4 {
   justify-content: center;
 }
 
-.overlay h2 {
+.overlay h4 {
 
-  color: rgb(0, 0, 0);
+  color: #931c1c;
   font-weight: 600;
   margin: 2rem 3rem 0;
   mix-blend-mode: overlay;
