@@ -85,7 +85,23 @@ h4 {
 
 
 
+.overlay {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.overlay h2 {
+
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  margin: 2rem 3rem 0;
+  mix-blend-mode: overlay;
+  padding: 5px 15px;
+  text-align: center;
+  opacity: 1;
+}
 
 a {
   text-decoration: none;
@@ -108,10 +124,17 @@ img.minia{
 }
 
 /* Style the video: 100% width and height to cover the entire window */
+#header-video {
+  opacity: 1;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
 #background-video {
   opacity: 1;
   width: 100%;
-  height: auto;
+
 }
 
 @media screen and (max-width:981px) {
