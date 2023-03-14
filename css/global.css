@@ -656,7 +656,22 @@ display: inline;
   transition: all 1s ease;
 }
 
+.portfolio2 .grid__item {
+  max-width: 50%;
+  margin-bottom: 0;
+  opacity: 1;
+  transition: all 1s ease;
+}
+
 .portfolio .grid__item.hide {
+  opacity: 0;
+  max-width: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: all .4s ease;
+}
+
+.portfolio2 .grid__item.hide {
   opacity: 0;
   max-width: 0;
   padding: 0;
@@ -751,6 +766,12 @@ display: inline;
     max-width: 300px;
   }
 
+  .portfolio2 a {
+    font-size: 1.4rem;
+  }
+  .portfolio2 .grid__item {
+    max-width: 300px;
+  }
 }
 
 
@@ -758,6 +779,10 @@ display: inline;
 
 @media screen and (min-width:400px) {
   .portfolio a {
+    font-size: 1.4rem;
+  }
+
+  .portfolio2 a {
     font-size: 1.4rem;
   }
 
@@ -775,6 +800,11 @@ display: inline;
   .portfolio-filters .grid__item {
     max-width: 25%;
   }
+
+  .portfolio2 .grid__item {
+    max-width: 300px;
+  }
+
 
   .modal__content {
     padding: 3rem;
