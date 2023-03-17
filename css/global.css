@@ -365,6 +365,7 @@ justify-items: center;
   background-color: #e8e8e8;
   padding-top: 60px;
   transition: left 0.5s ease;
+  overflow-y: auto;
 }
 
 /* Sidenav menu links */
