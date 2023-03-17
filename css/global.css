@@ -16,6 +16,40 @@
 
 }
 
+
+new
+
+
+nav {
+	background-color: #f2f2f2;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+nav li {
+	margin: 0;
+	padding: 0;
+}
+nav a {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	color: #931c1c;
+}
+nav a:hover {
+	background-color: #ccc;
+}
+
+
+
+
+
+
+
+
 html {
   font-size: 62.5%;
 }
