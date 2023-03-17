@@ -252,7 +252,7 @@ img {
 }
 
 img.logo2{
-  height: 150px;
+  height: 100px;
 }
 
 ul {
@@ -288,6 +288,7 @@ li {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  height: 10vh;
 }
 
 
