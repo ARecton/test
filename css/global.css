@@ -368,7 +368,7 @@ justify-items: center;
   padding-top: 60px;
   transition: left 0.5s ease;
   overflow-y: auto;
-  background: rgba(28, 28, 38, 0.7);
+  background: rgb(255 255 255 / 70%);
   color: #FFF;
 
   backdrop-filter:blur(6px) ;
