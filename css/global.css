@@ -189,11 +189,15 @@ img.minia{
   width: 100%;
   position: absolute;
   z-index: 0;
+  bottom: 50%;
 }
 
-#background-video {
+#header-video2 {
   opacity: 1;
   width: 100%;
+  position: relative;
+  z-index: 0;
+  bottom: 50%;
 
 }
 
@@ -340,7 +344,7 @@ justify-items: center;
   margin-top: 0;
   font-size: 3.8rem;
   border: none;
-
+  text-transform: capitalize;
   padding: 0;
 }
 
