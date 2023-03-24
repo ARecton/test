@@ -187,9 +187,8 @@ img.minia{
 #header-video {
   opacity: 1;
   width: 100%;
-  position: absolute;
-  z-index: 0;
-  bottom: 50%;
+
+
 }
 
 #header-video2 {
