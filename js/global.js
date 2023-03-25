@@ -290,6 +290,11 @@ var closeBtn = document.getElementById("closeBtn");
 
 openBtn.onclick = openNav;
 closeBtn.onclick = closeNav;
+document.addEventListener('click', function(e) {
+  if (!sidenav.contains(e.target) && !openBtn.contains(e.target)) {
+    closeNav();
+  }
+});
 
 /* Set the width of the side navigation to 250px */
 function openNav() {
@@ -300,3 +305,9 @@ function openNav() {
 function closeNav() {
   sidenav.classList.remove("active");
 }
+
+/* Toggle the sidenav when the burger-icon is clicked */
+var burgerMenuBtn = document.querySelector('.burger-icon');
+burgerMenuBtn.addEventListener('click', function() {
+  sidenav.classList.toggle('active');
+});
