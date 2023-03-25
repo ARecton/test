@@ -627,6 +627,7 @@ display: inline;
 .hero__p {
   animation-duration: 1s;
   animation-name: slideInleft;
+
 }
 
 .hero__item.right {
@@ -1181,9 +1182,7 @@ footer .socials a:hover {
   footer p{
     margin-left: 10px;
   }
-  .hero__p .text{
-    margin-top: -140px;
-  }
+
 
 }
 
