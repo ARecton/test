@@ -641,6 +641,7 @@ display: inline;
 .hero__p {
   animation-duration: 1s;
   animation-name: slideInleft;
+  margin-bottom: -30vh
 
 }
 
