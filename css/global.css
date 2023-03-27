@@ -188,8 +188,8 @@ img.minia{
   object-fit: cover;
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
-  height: 60vh;
-  bottom: 60vh;
+  height: 100vh;
+
 }
 
 #vid{
@@ -203,7 +203,7 @@ img.minia{
 object-fit: cover;
 width: 100%;
 clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
-height: 85vh;
+height: 100vh;
 }
 
 @media screen and (max-width:981px) {
