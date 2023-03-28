@@ -21,14 +21,17 @@
 
 
 nav {
-	background-color: #f2f2f2;
+	background-color: transparent;
 }
 nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	display: flex;
+  background-color: transparent;
 }
+
+
 nav li {
 	margin: 0;
 	padding: 0;
