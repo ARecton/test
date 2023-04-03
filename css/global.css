@@ -196,7 +196,7 @@ img.minia{
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
   height: 100vh;
-
+  margin-bottom: -30vh;
 }
 
 #vid{
@@ -648,8 +648,22 @@ display: inline;
 .hero__p {
   animation-duration: 1s;
   animation-name: slideInleft;
-  margin-bottom: -30vh
+  margin-bottom: -10vh;
+  margin-top: 10vh;
+}
 
+/* Ajustement de la marge pour les écrans de taille moyenne */
+@media screen and (max-width: 768px) {
+  .hero__p {
+      margin-bottom: -35vh;
+  }
+}
+
+/* Ajustement de la marge pour les petits écrans */
+@media screen and (max-width: 480px) {
+  .hero__p {
+      margin-bottom: -35vh;
+  }
 }
 
 .hero__item.right {
@@ -750,6 +764,7 @@ display: inline;
   bottom: 40vh;
   position: relative;
   top: 100%;
+  margin-top: 10vh; ;
 }
 
 .text{
