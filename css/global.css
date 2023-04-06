@@ -624,10 +624,8 @@ display: inline;
     position: relative;
 }
 
-.grid_hero{
-  display: grid;
-  grid-template-columns: 1fr;
-}
+
+
 
 
 .hero .title {
@@ -768,7 +766,7 @@ display: inline;
   width: 100%;
   height: 100%;
   bottom: 40vh;
-  position: relative;
+
   top: 100%;
   margin-top: 10vh; ;
 }
