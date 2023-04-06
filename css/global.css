@@ -194,10 +194,13 @@ img.minia{
 #header-video {
   object-fit: cover;
   width: 100%;
+  height: 56.25vw; /* 16:9 aspect ratio, adapt to viewport width */
   clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
-  height: 100vh;
-  margin-bottom: -30vh;
+  margin-bottom: -10vh;
 }
+
+
+
 
 #vid{
  height: 100%;
@@ -207,11 +210,14 @@ img.minia{
 
 
 #header-video2 {
-object-fit: cover;
-width: 100%;
-clip-path:polygon(0 20%, 100% 20%, 100% 35%, 0 35%);
-height: auto;
+  object-fit: cover;
+  width: 100%;
+  height: 56.25vw; /* 16:9 aspect ratio, adapt to viewport width */
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
+  margin-bottom: -10vh;
 }
+
+
 
 @media screen and (max-width:981px) {
   .btn-reservation {
@@ -771,7 +777,7 @@ display: inline;
   width: 100%;
   height: 100%;
   bottom: 40vh;
-  position: relative;
+
 }
 
 
