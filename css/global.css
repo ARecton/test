@@ -622,6 +622,7 @@ display: inline;
     justify-content: center;
     flex-direction: column;
     position: relative;
+    margin-top: -20vh;
 }
 
 
@@ -768,7 +769,7 @@ display: inline;
   bottom: 40vh;
 
   top: 100%;
-  margin-top: 10vh; ;
+  margin-top: -5vh; ;
 }
 
 .text{
