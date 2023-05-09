@@ -365,7 +365,7 @@ justify-items: center;
 }
 
 .section-title {
-  margin-top: 0;
+  margin-top: 20px;
   font-size: 3.8rem;
   border: none;
   text-transform: capitalize;
@@ -654,7 +654,7 @@ display: inline;
   animation-duration: 1s;
   animation-name: slideInleft;
   margin-bottom: -10vh;
-  margin-top: 25vh;
+  margin-top: 28vh;
 }
 
 /* Ajustement de la marge pour les écrans de taille moyenne */
