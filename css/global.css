@@ -668,6 +668,7 @@ display: inline;
 @media screen and (max-width: 480px) {
   .hero__p {
       margin-bottom: -35vh;
+      margin-top: 15vh;
   }
 }
 
@@ -1235,10 +1236,6 @@ footer .socials a:hover {
   .portfolio{
     margin-top: 0vh;
   }
-  .hero{
-    margin-top: -14vh;
-  }
-
 
 }
 
