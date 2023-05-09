@@ -654,7 +654,7 @@ display: inline;
   animation-duration: 1s;
   animation-name: slideInleft;
   margin-bottom: -10vh;
-  margin-top: 14vh;
+  margin-top: 15vh;
 }
 
 /* Ajustement de la marge pour les écrans de taille moyenne */
@@ -769,7 +769,7 @@ display: inline;
   bottom: 40vh;
 
   top: 100%;
-  margin-top: -5vh; ;
+
 }
 
 .text{
