@@ -195,7 +195,7 @@ img.minia{
   object-fit: cover;
   width: 100%;
   height: 56.25vw; /* 16:9 aspect ratio, adapt to viewport width */
-  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
   margin-bottom: -27vw;
 }
 
@@ -213,7 +213,7 @@ img.minia{
   object-fit: cover;
   width: 100%;
   height: 56.25vw; /* 16:9 aspect ratio, adapt to viewport width */
-  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
   margin-bottom: -27vw;
 }
 
@@ -654,7 +654,7 @@ display: inline;
   animation-duration: 1s;
   animation-name: slideInleft;
   margin-bottom: -10vh;
-  margin-top: 10vh;
+  margin-top: 14vh;
 }
 
 /* Ajustement de la marge pour les écrans de taille moyenne */
@@ -1236,7 +1236,7 @@ footer .socials a:hover {
     margin-top: 0vh;
   }
   .hero{
-    margin-top: -15vh;
+    margin-top: -14vh;
   }
 
 
