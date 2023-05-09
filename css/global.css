@@ -276,7 +276,13 @@ img {
 }
 
 img.logo2{
-  height: 120px;
+  width: 200px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .logo2 {
+    width: 100px;
+  }
 }
 
 ul {
