@@ -281,7 +281,7 @@ img.logo2{
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .logo2 {
-    width: 100px;
+    width: 200px;
   }
 }
 
